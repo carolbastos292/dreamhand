@@ -1,0 +1,24 @@
+<ion-content padding>
+  <div text-center padding>
+      <h3 >Login</h3>
+  </div>
+
+ <ion-list>
+
+  <ion-item>
+    <ion-input type="text" value="" [(ngModel)]="user.email" placeholder="Email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    
+    <ion-input type="password" [(ngModel)]="user.password" placeholder="Senha"></ion-input>
+  </ion-item>
+
+</ion-list>
+
+  <div text-center>
+      <button ion-button (click)="login(user)">Entrar</button>
+      <button ion-button color="secondary" (click)="register()">Cadastrar-se</button>
+  </div>
+   
+</ion-content>
