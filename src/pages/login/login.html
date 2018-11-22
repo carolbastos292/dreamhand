@@ -1,24 +1,26 @@
-<ion-content padding>
+ <ion-content padding>
   <div text-center padding>
       <h3 >Login</h3>
   </div>
 
- <ion-list>
+     <ion-list>
 
-  <ion-item>
-    <ion-input type="text" value="" [(ngModel)]="user.email" placeholder="Email"></ion-input>
-  </ion-item>
+      <ion-item>
+        <ion-input type="text" value="" [(ngModel)]="user.email" placeholder="Email"></ion-input>
+      </ion-item>
 
-  <ion-item>
-    
-    <ion-input type="password" [(ngModel)]="user.password" placeholder="Senha"></ion-input>
-  </ion-item>
+      <ion-item>
 
-</ion-list>
+        <ion-input type="password" [(ngModel)]="user.password" placeholder="Senha"></ion-input>
+      </ion-item>
 
-  <div text-center>
-      <button ion-button (click)="login(user)">Entrar</button>
-      <button ion-button color="secondary" (click)="register()">Cadastrar-se</button>
-  </div>
+    </ion-list>
+
+     <div text-center>
+         <button ion-button (click)="login(user)">Entrar</button>
+         <button ion-button color="secondary" (click)="register()">Cadastrar-se</button> <br><br>
+         <a >Esqueceu sua senha?</a>
+     </div>
+
    
 </ion-content>

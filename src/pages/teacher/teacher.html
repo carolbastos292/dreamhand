@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Professor</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-list>
+	  <ion-item>
+	    <ion-label floating>Nome da Aula</ion-label>
+	    <ion-input type="text" value=""></ion-input>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label floating>Descrição da aula</ion-label>
+	    <ion-input type="text"></ion-input>
+	  </ion-item>
+
+	  <ion-item>
+      <label class="item item-input">
+        <input type="file" id="upimgfile" name="uploadfile" ng-model="orderDetails.uploadfile">
+      </label>
+	  </ion-item>
+
+    <ion-item>
+      <button ion-button >Salvar</button>
+	  </ion-item>
+
+
+	</ion-list>
+
+
+</ion-content>

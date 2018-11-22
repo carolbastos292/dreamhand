@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {User} from '../../models/user';
 import { AngularFireAuth } from 'angularfire2/auth';
 
+
 @IonicPage()
 @Component({
   selector: 'page-register',
@@ -10,7 +11,7 @@ import { AngularFireAuth } from 'angularfire2/auth';
 })
 export class RegisterPage {
 
-  user = {} as User;
+    user = {} as User;
 
   constructor( private ofAuth: AngularFireAuth,
   	public navCtrl: NavController, public navParams: NavParams) {
@@ -26,3 +27,4 @@ export class RegisterPage {
   }
 
 }
+

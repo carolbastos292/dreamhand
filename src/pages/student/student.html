@@ -1,18 +1,16 @@
-<!--
-  Generated template for the StudentPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>student</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
-</ion-content>
+<ion-list>
+	<ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+  <ion-item>
+    <ion-card>
+		  <iframe width="350" height="315" src="https://www.youtube.com/embed/PxcB4SvSFJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <ion-card-content>
+		    <ion-card-title>
+		      Vogais em Libras
+		      </ion-card-title>
+		    <ion-label>
+		      Aula sobre vogais em libras
+		    </ion-label>
+		  </ion-card-content>
+		</ion-card>
+  </ion-item>
+</ion-list>

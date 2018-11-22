@@ -30,13 +30,13 @@ import { AngularFireAuth } from 'angularfire2/auth';
     BrowserModule,
     IonicModule.forRoot(MyApp),
     AngularFireModule.initializeApp(firebaseConfig)
-    
+
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     LoginPage
-    
+
   ],
   providers: [
     StatusBar,
